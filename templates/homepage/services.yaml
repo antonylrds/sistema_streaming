@@ -1,0 +1,28 @@
+# {{HOMEPAGE_VAR_HOST}} vem do HOST no .env (variavel HOMEPAGE_VAR_HOST do container).
+- Midia:
+    - Jellyfin:
+        icon: jellyfin.png
+        href: http://{{HOMEPAGE_VAR_HOST}}:8096
+        description: Biblioteca de midia
+    - qBittorrent:
+        icon: qbittorrent.png
+        href: http://{{HOMEPAGE_VAR_HOST}}:8081
+        description: Downloads
+
+- Automacao:
+    - Radarr:
+        icon: radarr.png
+        href: http://{{HOMEPAGE_VAR_HOST}}:7878
+        description: Filmes
+    - Sonarr:
+        icon: sonarr.png
+        href: http://{{HOMEPAGE_VAR_HOST}}:8989
+        description: Series
+    - Prowlarr:
+        icon: prowlarr.png
+        href: http://{{HOMEPAGE_VAR_HOST}}:9696
+        description: Indexadores
+    - Bazarr:
+        icon: bazarr.png
+        href: http://{{HOMEPAGE_VAR_HOST}}:6767
+        description: Legendas

@@ -62,5 +62,6 @@ services:
     restart: unless-stopped
     environment:
       HOMEPAGE_ALLOWED_HOSTS: ${HOMEPAGE_ALLOWED_HOSTS}
+      HOMEPAGE_VAR_HOST: ${HOST}          # usado nos links de templates/homepage/services.yaml
     ports: ["8082:3000"]
     volumes: ["${DATA}/homepage:/app/config"]
